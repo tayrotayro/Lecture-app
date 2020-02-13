@@ -1,0 +1,33 @@
+.app {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .counter {
+    font-size: 200px;
+    user-select: none;
+    color: #76ff03;
+  }
+
+  .counter-button {
+    padding: 12px;
+    margin: 16px 0px 72px 0px;
+    border-radius: 4px;
+    border: 2px solid #76ff03;
+    width: 128px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #76ff03;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .disabled {
+    cursor: default;
+    border: 2px solid #080808;
+    width: 200px;
+  }
+}
