@@ -1,6 +1,15 @@
 import React, { Component } from "react";
 import "./App.scss";
 
+const firebaseConfig = {
+  apiKey: "AIzaSyAZXfyjF4BcjTgC0Uig_4-JpF3ZDkPwD_k",
+  authDomain: "lecture-app-tayro.firebaseapp.com",
+  databaseURL: "https://lecture-app-tayro.firebaseio.com",
+  projectId: "lecture-app-tayro",
+  storageBucket: "lecture-app-tayro.appspot.com",
+  messagingSenderId: "17246310095",
+  appId: "1:17246310095:web:47acefcd35b6a1955d31ba"
+};
 class App extends Component {
   constructor(props) {
     super(props);
