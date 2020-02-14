@@ -24,15 +24,17 @@ What I challenge you to do is set up your dev environment in React.js, create a 
 
 7. Run `sudo npm install -g firebase-tools`
 
-8. Run firebase login (make sure you choose the google account that your project is on if you have more than one google account)
+8. Run `firebase login` (make sure you choose the google account that your project is on if you have more than one google account)
 
-9. Run firebase projects:list (to make sure the newly created project is in your project list).
+9. Run `firebase projects:list` (to make sure the newly created project is in your project list).
 
 10. Initiating Firebase app in your project
     Run `firebase init`
 11. Choose database and hosting
     - If there’s an error “fetching firestore indexes”, go to Firebase console -> “Database” and you should see something about google cloud platform. Click the link on console and then switch to Native Mode. After switching to Native Mode, run firebase init again.
 12. For React projects, public directory is “build”
+
+13. When process is complete, run `npm install firebase`
 
 ### Hosting
 
