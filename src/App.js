@@ -4,13 +4,7 @@ import "firebase/firestore"; // import firestore from firebase
 import "./App.scss";
 
 // const firebaseConfig = {
-//   apiKey: "AIzaSyAZXfyjF4BcjTgC0Uig_4-JpF3ZDkPwD_k",
-//   authDomain: "lecture-app-tayro.firebaseapp.com",
-//   databaseURL: "https://lecture-app-tayro.firebaseio.com",
-//   projectId: "lecture-app-tayro",
-//   storageBucket: "lecture-app-tayro.appspot.com",
-//   messagingSenderId: "17246310095",
-//   appId: "1:17246310095:web:47acefcd35b6a1955d31ba"
+//   //deleted the config key for security purposes
 // }; // config key (from project settings)
 
 // const firebaseApp = firebase.initializeApp(firebaseConfig); // initilize firebase app
@@ -31,7 +25,7 @@ class App extends Component {
   //   // counterRef
   //   //   .get()
   //   //   .then(doc => {
-  //   counterRef.onSnapshot(doc => {
+  //   counterRef.onSnapshot(doc => { //this is the realtime function
   //     if (doc.exists) {
   //       this.setState({
   //         counter: doc.data().counter
