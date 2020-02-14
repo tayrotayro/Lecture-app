@@ -1,6 +1,7 @@
-## 387 Lecture - Firebase Setup in React Project
+# 387 Lecture - Firebase Setup in React Project
 
-###Things to Consider(MUST READ)!!
+## Things to Consider(MUST READ)
+
 This project already has firebase configured and installed. I am providing this code as an example to you. The main file in in Src -> App.js. This is the only file we edited in class. The directions below are for setting a new React.js app to a firebase project.
 
 What I challenge you to do is set up your dev environment in React.js, create a simple app, then try to follow the instructions below to successfully hook up your app to the database. Make sure you read the React.js and Firebase documentations.
